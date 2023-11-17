@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="about_con">
       <header>
-        <strong>About Us</strong>
+        <strong>About</strong>
       </header>
       <p>
         I am a frontend developer with a particular interest in making things
