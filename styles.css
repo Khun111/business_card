@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #23252C;
+}
+
+.card_con {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1A1B21;
+  border: none;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  color: #fff;
+  width: 25%;
+}
+.info_con {
+  text-align: center;
+}
+.info_con > p {
+  color: #F3BF99;
+text-align: center;
+font-family: Inter;
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 400;
+margin-top: 0.4em;
+}
+.info_con > img {
+  width: 100%;
+  margin-top: 1.3em;
+}
+.info_con > button {
+  display: flex;
+width: 80%;
+padding: 0.5625rem 0.8125rem 0.5625rem 0.6875rem;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+border-radius: 0.375rem;
+border: 1px solid var(--gray-300, #D1D5DB);
+background: var(--white, #FFF);
+margin: 0 auto;
+margin-top: 0.9em;
+
+/* shadow/sm */
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.about_con > header {
+  margin-top: 2.1em;
+  color: #F5F5F5;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 150%; /* 1.5rem */
+}
+.interest_con > header {
+  margin-top: 1.7em;
+  color: #F5F5F5;
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 1.5rem */
+}
+.about_con, .interest_con {
+  width: 80%;
+  margin: 0 auto;
+}
+.about_con > p, .interest_con > p {
+  color: hsl(0, 0%, 86%);
+font-family: Inter;
+font-size: 0.64rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 0.96rem */
+margin-top: 0.3em;
+}
+
+.info_con > h2, .interest_con > h2 {
+text-align: center;
+font-family: Inter;
+font-size: 1.5625rem;
+font-weight: 700;
+}
+.info_con > a {
+  color: #F5F5F5;
+text-align: center;
+font-family: Inter;
+font-size: 0.64rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 0.96rem */
+margin-top: 0.55em;
+}
+
+.foot_con {
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
+background: #161619;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 1.2em 0;
+margin-top: 1.5em;
+}
